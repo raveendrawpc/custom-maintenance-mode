@@ -1,0 +1,15 @@
+{
+    "name": "rabindra/custom-maintenance-mode",
+    "description": "A simple plugin to enable maintenance mode with customizable messages.",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Rabindra Pantha"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RP\\WordPress\\CustomMaintenanceMode\\": "src/"
+        }
+    }
+}
